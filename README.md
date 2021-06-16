@@ -12,6 +12,7 @@
 		- Add your Access Key ID
 		- Add your Secret access key
 		- Add the location as: eu-west-1
+		- Add the output as: json
 	
 	- After you have completed the configuration do the following:
 		- aws s3 ls -> To show all the buckets available inside the S3 service
@@ -22,3 +23,6 @@
 		- aws s3 sync s3://devops-bootcamp-yourName-bucket/ devops_bootcamp_test.txt -> To download the file from your S3 bucket inside your localhost
 		- aws s3 rm s3://devops-bootcamp-yourName-bucket/devops_bootcamp_test.txt -> To remove the file from your S3 bucket
 		- aws s3 rb s3://devops-bootcamp-yourName-bucket -> To remove the bucket from the S3 service
+	
+	- To grant permissions to a file go inside your S3 bucket, click on your file, click on Object actions and select Make public
+
